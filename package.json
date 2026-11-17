@@ -1,0 +1,47 @@
+{
+  "name": "traffic-flow-toolkit-atharva",
+  "version": "1.0.0",
+  "description": "Lightweight JavaScript utilities for traffic sensor data, congestion classification, anomaly detection, and traffic statistics.",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --experimental-test-coverage --test",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "traffic",
+    "transportation",
+    "congestion",
+    "anomaly-detection",
+    "sensor-data",
+    "javascript",
+    "utilities"
+  ],
+  "license": "MIT",
+  "author": "Atharva Jha",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvajha21/traffic-flow-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atharvajha21/traffic-flow-toolkit/issues"
+  },
+  "homepage": "https://github.com/atharvajha21/traffic-flow-toolkit#readme"
+}
